@@ -1,0 +1,4 @@
+﻿  main.c
+c:\users\axk166230\documents\visual studio 2015\projects\twomicdoa\twomicdoa\main.c(12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  TwomicDOA.vcxproj -> C:\Users\axk166230\Documents\Visual Studio 2015\Projects\TwomicDOA\Debug\TwomicDOA.exe
+  TwomicDOA.vcxproj -> C:\Users\axk166230\Documents\Visual Studio 2015\Projects\TwomicDOA\Debug\TwomicDOA.pdb (Partial PDB)

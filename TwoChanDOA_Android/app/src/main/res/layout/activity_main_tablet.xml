@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="com.example.axk166230.TwoChanDOA_v4.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ib_mic"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:src="@android:drawable/ic_btn_speak_now" />
+
+        <ImageButton
+            android:id="@+id/ib_settings"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@android:drawable/ic_menu_manage" />
+
+
+
+        <ImageButton
+            android:id="@+id/ib_stop"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@android:drawable/ic_media_pause" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_stepsize"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical"
+            android:text="@string/tvStepSize"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_angle"
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:layout_alignBottom="@+id/tv_stepsize"
+            android:layout_toEndOf="@+id/tv_stepsize"
+            android:inputType="numberDecimal"
+            android:text="@string/etStepsize"
+            android:textAlignment="center"
+            android:textSize="24sp">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/tv_frametime"
+            android:layout_width="250dp"
+            android:layout_height="75dp"
+            android:text="@string/tvFrameTime"
+            android:textSize="24sp"
+            android:gravity="center_vertical"
+            android:layout_alignBaseline="@+id/et_frametime"
+            android:layout_alignBottom="@+id/et_frametime"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_frametime"
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:inputType="numberDecimal"
+            android:text="@string/Threshold"
+            android:layout_below="@+id/tv_stepsize"
+            android:layout_toEndOf="@+id/tv_frametime"
+            android:textSize="24sp">
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:text="Threshold:"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textSize="24sp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:id="@+id/textView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="70dp"
+            />
+
+        <EditText
+            android:id="@+id/et_SFxavg"
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:inputType="numberDecimal"
+            android:textSize="24sp"
+            android:text="@string/etSFxavg"
+            android:layout_alignParentEnd="true"
+            >
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:text="   Duration: "
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:textSize="24sp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:id="@+id/tv_threadduration"
+            android:layout_alignTop="@+id/tv_frametime"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="70dp"
+             />
+
+        <EditText
+            android:id="@+id/et_threadduration"
+            android:layout_width="50dp"
+            android:layout_height="75dp"
+            android:inputType="numberDecimal"
+            android:text="@string/Duration"
+            android:textSize="24sp"
+            android:layout_alignBaseline="@+id/tv_threadduration"
+            android:layout_alignBottom="@+id/tv_threadduration"
+            android:layout_alignParentEnd="true"
+            >
+
+            <requestFocus />
+        </EditText>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/b_save"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/bSave"
+            android:textSize="24sp"/>
+
+
+
+        <Button
+            android:id="@+id/b_reset"
+            android:layout_width="100dp"
+            android:layout_height="75dp"
+            android:text="@string/bReset"
+            android:textSize="24sp"
+            android:layout_alignParentBottom="true"
+
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:id="@+id/b_enchanced"
+            android:layout_width="180dp"
+            android:layout_height="75dp"
+            android:text="@string/bEnchanced"
+            android:textSize="24sp"
+            android:background="@android:color/holo_red_light"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:weightSum="1"
+        >
+
+        <TextView
+            android:text="MIC 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:textSize="24sp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            />
+
+        <TextView
+            android:text="MIC 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_alignStart="@+id/textView4"
+            android:textSize="24sp"
+            android:layout_alignParentBottom="true"
+             />
+
+        <com.example.axk166230.TwoChanDOA_v4.Circle
+            android:id="@+id/circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:text="Aketkhan"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewOrientation"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>
