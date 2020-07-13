@@ -1,4 +1,4 @@
-#Real-time Smartphone application for improving spatial awareness of Hearing Assistive Devices
+# Real-time Smartphone application for improving spatial awareness of Hearing Assistive Devices
 
 ## Overview
 
@@ -7,7 +7,7 @@ This GitHub repository provides for Two Microphone DOA estimation on Android sma
 
 You can find the manuscript for this GitHub repository : https://ieeexplore.ieee.org/document/8512318
 
-##Audio-Video Demo
+## Audio-Video Demo
 
 https://youtu.be/mZ-cB6-21p0
 
@@ -25,7 +25,7 @@ The codes are licensed under MIT license.
 
 For any utilization of the code content of this repository, one of the following books needs to get cited by the user:
 
-A. Ganguly, A. Küçük and I. Panahi, "Real-time Smartphone application for improving spatial awareness of Hearing Assistive Devices," 2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Honolulu, HI, 2018, pp. 433-436, doi: 10.1109/EMBC.2018.8512318.
+A. Ganguly, A. KÃ¼Ã§Ã¼k and I. Panahi, "Real-time Smartphone application for improving spatial awareness of Hearing Assistive Devices," 2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Honolulu, HI, 2018, pp. 433-436, doi: 10.1109/EMBC.2018.8512318.
 
 ## Disclaimer
 
