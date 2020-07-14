@@ -29,9 +29,5 @@ A. Ganguly, A. Küçük and I. Panahi, "Real-time Smartphone application for imp
 
 ## Disclaimer
 
-This work was supported in part by the National Institute of the Deafness and Other Communication Disorders (NIDCD) of the National
-
-Institutes of Health (NIH) under Award 1R01DC015430-04. The content is solely the responsibility of the authors and does not necessarily
-
-represent the official views of the NIH.
+This work was supported in part by the National Institute of the Deafness and Other Communication Disorders (NIDCD) of the National Institutes of Health (NIH) under Award 1R01DC015430-04. The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH.
 
